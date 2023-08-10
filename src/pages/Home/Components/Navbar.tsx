@@ -1,4 +1,4 @@
-import { ReactComponent as Brand } from '../../../../assets/Brand.svg'
+import { ReactComponent as Brand } from '../../../assets/Brand.svg'
 const routes = [
   'Home',
   'Business',

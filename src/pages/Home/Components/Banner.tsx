@@ -1,5 +1,5 @@
-import BannerImage from '../../../../assets/Banner.png'
-import Button from '../UI/Button'
+import BannerImage from '../../../assets/Banner.png'
+import Button from './UI/Button'
 const Banner = () => {
   return (
     <section className="flex justify-between items-start">
