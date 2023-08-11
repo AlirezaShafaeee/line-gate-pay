@@ -13,7 +13,7 @@ const FeatureItem: React.FC<featureProps> = ({
 }) => {
   return (
     <div className="transition cursor-default flex-1 text-center flex flex-col items-center py-10 rounded-xl bg-card hover:shadow-[0px_50px_60px_-15px_#0000001a] shadow-sm">
-      <Icon className='max-md:w-[49px] max-md:h-[49px]'/>
+      <Icon className="max-md:w-[49px] max-md:h-[49px]" />
       <span className="text-text text-lg font-bold">{lable}</span>
       <span className="w-9/12">
         {subLable}
