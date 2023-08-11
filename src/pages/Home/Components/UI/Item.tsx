@@ -12,7 +12,7 @@ const Item = (props:propsInt) => {
             <div className={['text-white w-[20px] h-[20px] font-[700] text-[10px] flex items-center justify-center rounded-full mt-[3px]',props.type==="boost" ? " bg-icon" : "bg-primary"].join(" ")}>
                 <TiTick/>
             </div>
-            <span className='ml-[6px]'>{props.title}</span>
+            <span className='ml-[6px] text-[14px] font-[700]'>{props.title}</span>
         </div>
     );
 };
