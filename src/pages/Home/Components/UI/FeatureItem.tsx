@@ -5,7 +5,7 @@ interface featureProps {
   lable: string
   subLable: string
 }
-const Features: React.FC<featureProps> = ({
+const FeatureItem: React.FC<featureProps> = ({
   Icon,
   subLable,
   lable,
@@ -28,4 +28,4 @@ const Features: React.FC<featureProps> = ({
   )
 }
 
-export default Features
+export default FeatureItem
