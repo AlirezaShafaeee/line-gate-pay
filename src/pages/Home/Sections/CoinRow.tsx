@@ -41,7 +41,7 @@ const CoinRow = () => {
     slidesToShow: 10,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     pauseOnHover: true,
     focusOnSelect: true,
   }

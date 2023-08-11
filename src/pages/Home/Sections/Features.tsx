@@ -11,7 +11,7 @@ import { needs } from '../DB/Need'
 const Features = () => {
   return (
     <>
-      <section className="bg-card space-x-4 flex justify-between items-center">
+      <section className="space-x-4 max-md:flex-col max-md:space-x-0 max-md:space-y-4 flex justify-between items-center">
         <FeatureItem
           Icon={Eye}
           lable="Privacy"
