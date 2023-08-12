@@ -1,4 +1,5 @@
 import { ReactComponent as Brand } from '../../../../assets/Brand.svg'
+import CustomDrawer from './Drawer'
 const routes = [
   'Home',
   'Business',
@@ -13,19 +14,7 @@ const Navbar = () => {
   return (
     <nav className="text-text flex justify-between items-center">
       <div className="flex items-center space-x-12 max-xl:space-x-7 max-md:justify-between max-md:w-full">
-        <button className="w-[42px] h-[42px] bg-card_light rounded-xl justify-center items-center  max-md:flex hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="16"
-            viewBox="0 0 20 16"
-            fill="none"
-          >
-            <rect y="12" width="20" height="4" rx="2" fill="#1093FF" />
-            <rect y="6" width="20" height="4" rx="2" fill="#99D1FF" />
-            <rect width="20" height="4" rx="2" fill="#1093FF" />
-          </svg>
-        </button>
+        <CustomDrawer/>
         <Brand className="max-xl:w-[100px]" />
         <ul className="flex space-x-12 max-xl:space-x-8 max-lg:space-x-6 max-lg:hidden">
           {routes.map((value: string, index: number) => {
