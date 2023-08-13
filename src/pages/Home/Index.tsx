@@ -18,12 +18,22 @@ const Home = () => {
       </header>
       <main className="max-w-[1280px] m-auto grid grid-cols-1 gap-y-10">
         <Features />
+  
+
+      </main>
+      <div className='bg-[#FAFAFA]  py-[100px]'>
         <Code/>
+      </div>
+      <div className='bg-[#F5F5F5] py-[50px]'>
         <Boost/>
+      </div>
+      <div className='bg-[#FAFAFA] space-y-[80px] pt-[80px] pb-[20px]'>
         <Advantages/>
         <Develop/>
         <Register/>
-      </main>
+      </div>
+
+
       <footer className='w-full bg-card_shade'>
         <Footer/>
       </footer>

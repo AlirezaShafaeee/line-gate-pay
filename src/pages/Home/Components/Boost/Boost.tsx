@@ -6,25 +6,29 @@ import Button from '../UI/Button';
 
 const Boost = () => {
     return (
-        <div className='flex items-center justify-between h-[380px] bg-[#F5F5F5] w-[100%]'>  
-            <div className='flex flex-col items-start justify-between h-full '>
-                <div className='w-[300px]'>
+        <div className='flex flex-col items-center justify-between w-[100%] max-w-[1280px]  mx-auto sm:flex-row sm:h-[330px]'>  
+            <div className='flex flex-col items-center justify-between h-full sm:items-start '>
+                <div className='w-[300px] flex flex-col items-center sm:items-start'>
                     <h3 className='text-[22px]'>Boost your Business</h3>
-                    <span className='text-[14px]'>Save time and money with Mass Payouts. No Limits. No Boundaries</span>
+                    <span className='text-[14px]'>Save time and money with Mass Payouts.</span>
+                    <span className='text-[14px]'>No Limits. No Boundaries.</span>
                 </div>
-                <div className='grid grid-cols-2 gap-y-4 gap-x-[30px] font-[700]'>
+                <div className='grid grid-cols-1 gap-y-6 gap-x-[30px] font-[700] mt-[40px] sm:grid-cols-2 sm:mt-[20px] sm:gap-y-4'>
                     <Item title = "Easily enter an international market" type="boost"/>
                     <Item title = "Import your data from file (.xls)" type="boost"/>
                     <div className='flex flex-col items-start justify-end'>
                         <Item title = "Pool together up to 1000 transactions" type="boost"/>
-                        <span className='pl-[25px] text-icon'>saving 80% on fees</span>
+                        <span className='pl-[25px] text-icon text-[14px]'>saving 80% on fees</span>
                     </div>
                     
                     <Item title = "No limits for payout amount" type="boost"/>
 
                     
                 </div>
-                <Button lable="Boost my Business" />
+                <div className='mt-[30px] mb-[40px] sm:mt-[0px] sm:mb-[0px]'>
+                    <Button lable="Boost my Business" />
+                </div>
+          
             </div>
             <div >
                 <img width={500}  alt="Line gatepay Banner" src={BannerImage} />
