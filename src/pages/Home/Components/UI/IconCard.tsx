@@ -5,7 +5,7 @@ interface IconCardProps {
 }
 const IconCard: React.FC<IconCardProps> = ({ Icon }) => {
   return (
-    <div className="bg-card flex items-center justify-center text-center mx-3 h-[132] rounded-xl">
+    <div className="bg-card flex items-center justify-center text-center mx-3 h-[132] max-md:w-[100px] max-md:h-[100px] rounded-xl">
       <div className="flex items-center justify-center text-center">
         <img src={Icon} />
       </div>

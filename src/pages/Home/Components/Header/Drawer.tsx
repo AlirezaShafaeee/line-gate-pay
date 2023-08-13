@@ -4,7 +4,8 @@ import Drawer from '@mui/material/Drawer'
 export default function CustomDrawer() {
   const [state, setState] = React.useState(false)
   const toggleDrawer =
-    () => (event: React.KeyboardEvent | React.MouseEvent) => {
+    () =>
+    (event: React.KeyboardEvent | React.MouseEvent) => {
       if (
         event.type === 'keydown' &&
         ((event as React.KeyboardEvent).key === 'Tab' ||

@@ -12,7 +12,7 @@ const NeedItem: React.FC<needItemProps> = ({
   background,
 }) => {
   return (
-    <div className="flex items-center flex-col space-y-1">
+    <div className="flex items-center flex-col space-y-1 max-md:py-3">
       <div
         className="w-[110px] h-20 rounded-xl flex items-center justify-center"
         style={{ background: background }}

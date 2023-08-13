@@ -14,11 +14,18 @@
   font-weight: 400;
   color-scheme: light dark;
   color: rgba(28, 23, 23, 0.87);
-
   background-color: #fafafa;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+button:focus{
+  outline: none;
+  border: none;
+}
+button:active{
+  outline: none;
+  border: none;
 }
